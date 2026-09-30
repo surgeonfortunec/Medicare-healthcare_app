@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Medicare",
+    "slug": "Medicare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/medicare1.png",
+    "scheme": "Medicare",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/medicare1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.Medicare"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/medicare1.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true,
+          "image": "./assets/images/medicare1.png",
+          "dark": {
+            "image": "./assets/images/medicare1.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 300
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Rubik-Bold.ttf",
+            "./assets/fonts/Rubik-ExtraBold.ttf",
+            "./assets/fonts/Rubik-Medium.ttf",
+            "./assets/fonts/Rubik-Light.ttf",
+            "./assets/fonts/Rubik-Regular.ttf",
+            "./assets/fonts/Rubik-SemiBold.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d15fac9c-11f7-438f-aa23-dd352035885e"
+      }
+    }
+  }
+}
